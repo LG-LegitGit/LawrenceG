@@ -1,0 +1,100 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "About"
+  weight = 20
+
+[[main]]
+  name = "Skills"
+  parent = "About"
+  pageRef = "skills"
+  weight = 30
+
+[[main]]
+  name = "Experiences"
+  parent = "About"
+  pageRef = "experiences"
+  weight = 10
+
+[[main]]
+  name = "Education"
+  parent = "About"
+  pageRef = "education"
+  weight = 20
+
+#[[main]]
+#  name = "Certifications"
+#  #pageRef = "certifications"
+#  #weight = 90
+
+[[main]]
+  name = "Need Help?"
+  weight = 100
+
+[[main]]
+  name = "Guides"
+  parent = "Need Help?"
+  pageRef = "guides"
+  weight = 1000
+
+
+[[main]]
+  name = "Contact LawrenceG"
+  parent = "Need Help?"
+  pageRef = "contact"
+  weight = 1000
+
+[[main]]
+  name = "Resources & Community"
+  parent = "Need Help?"
+  pageRef = "resources"
+  weight = 1000
+
+[[main]]
+ # identifier = "X"
+#  pre = "x"
+#  url = "https://x.com/LawrenceG"
+ # weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://masto.ai/@LawrenceG"
+
+[[main]]
+ # identifier = "github"
+#  pre = "github"
+ # url = "https://github.com/str8_shoota_ent/LawrenceG"
+#  weight = 400
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Deep Dive"
+   pageRef = "tags"
+   weight = 10
+
+ [[footer]]
+   name = "About LawrenceG"
+   url = "/authors/LawrenceG"
+   weight = 20
+

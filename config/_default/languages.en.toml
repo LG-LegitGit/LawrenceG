@@ -1,0 +1,37 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "LawrenceG"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/LawrenceG1.png"
+  description = "Intermediate-Level Tech Consultant."
+
+[params.author]
+  name = "LawrenceG"
+  email = "info@LawrenceG.com"
+  image = "img/LawrenceG1.jpeg"
+  headline = "I Love Helping People!"
+  bio = "I can help you win. Put me in coach!"
+  links = [
+    { x-twitter = "https://x.com/LawrenceG" },
+    { github = "https://github.com/LawrenceG" },
+    { linkedIn = "https://www.linkedin.com/LawrenceG" },
+    { reddit = "https://www.reddit.com/LawrenceG" },
+    { bluesky = "https://bsky.app/LawrenceG" },
+    { tiktok = "https://tiktok.com/LawrenceG" },
+    { instagram = "https://instagram.com/LawrenceG" },
+    { pinterest = "https://pinterest.com/LawrenceG" },
+    { telegram = "https://telegram.com/LawrenceG" },
+    { facebook = "https://facebook.com/LawrenceG" },
+    { spotify = "https://spotify.com/LawrenceG" },
+    { twitch = "https://twitch.com/LawrenceG" },
+    { medium = "https://medium.com/LawrenceG" },
+    { discord = "https://discord.com/LawrenceG" },  
+    { meetup = "https://meetup.com/LawrenceG" },
+    { mastodon = "https://mastodon.social/LawrenceG" },  
+  ]
